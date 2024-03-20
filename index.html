@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/logo-a.svg" alt="logo da alura">
+    </header>
+
+    <main class="apresentacao">
+  
+        <section>
+            <textarea class="textarea" id="input-texto" name="story" rows="10" cols="25" placeholder="Digite o seu texto..."></textarea> 
+            <div class="alert-minusculo">
+                <img class="exclamacao" src="img/exclamacao.svg" alt="alerta">
+                <p class="apresentacao__titulo_conteudo">Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <button onclick="criptografar()" class="btn-cript">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-decript">Descriptografar</button>
+            </div>
+        </section>
+       
+        <section class="section-result">
+            <div id="output" class="resultado__decript">
+                <img src="img/High quality products 1 1.png" alt="Pessoa Meditando" class="container__imagem-pessoa" />
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>                  
+        <button onclick="copiartexto()" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        Desenvolvido por @evertonbazu
+    </footer>
+
+    <script src="app.js" defer></script>
+
+</body>
+
+</html>

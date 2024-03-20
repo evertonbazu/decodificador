@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.cabecalho h1{
+    color: darkblue;
+    margin-right: 8%;
+}
+
+.cabecalho img{
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+    margin-left: 3%;
+}
+
+h1{
+    color: #0A3871;
+}
+
+.apresentacao{
+    margin:4%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.apresentacao__titulo_conteudo{
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn-cript{
+    border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 24px;
+    color: #FFFFFF;
+    background-color: #0A3871;
+
+}
+
+.btn-decript{
+    border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 24px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+
+}
+
+.btn-copiar{
+    border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 24px;
+    color: #0A3871;
+    background-color: #ffffff; 
+}
+
+.resultado__decript{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 444px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    /* font-size: 10px; */
+    border: 0px solid gray;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 32px;
+    padding: 50px;
+}
+
+textarea {
+    font-size: 32px;
+    text-align:center;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 1;
+    background-color: #E5E5E5;
+    color: #0A3871;
+    resize: none;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+.alert-minusculo{
+    display: flex;
+    margin-top: 0;
+    gap: 8px;
+    justify-content: center;
+    
+}
+
+.section-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    border-radius: 32px;
+    padding: 50px;
+}
